@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44BBF4D31F4AF00E000315B1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBF4D21F4AF00E000315B1 /* MainViewController.m */; };
+		44BBF4D81F4B09E6000315B1 /* crew1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44BBF4D51F4B09E6000315B1 /* crew1.jpg */; };
+		44BBF4D91F4B09E6000315B1 /* crew2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44BBF4D61F4B09E6000315B1 /* crew2.jpg */; };
+		44BBF4DA1F4B09E6000315B1 /* crew3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44BBF4D71F4B09E6000315B1 /* crew3.jpg */; };
+		44BBF4DD1F4B13C1000315B1 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBF4DC1F4B13C1000315B1 /* DownloadManager.m */; };
+		44BBF4E61F4B2344000315B1 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBF4E51F4B2344000315B1 /* Downloader.m */; };
 		44C6EC9B1F416A1800E48294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6EC9A1F416A1800E48294 /* main.m */; };
 		44C6EC9E1F416A1800E48294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6EC9D1F416A1800E48294 /* AppDelegate.m */; };
 		44C6ECA11F416A1800E48294 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6ECA01F416A1800E48294 /* ViewController.m */; };
@@ -16,6 +22,15 @@
 		44C6ECAC1F416A1800E48294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C6ECAA1F416A1800E48294 /* LaunchScreen.storyboard */; };
 		44C6ECB71F416A1900E48294 /* FLY_TOGETHERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6ECB61F416A1900E48294 /* FLY_TOGETHERTests.m */; };
 		44C6ECC21F416A1900E48294 /* FLY_TOGETHERUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6ECC11F416A1900E48294 /* FLY_TOGETHERUITests.m */; };
+		44C6ECD31F4171A300E48294 /* JAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C6ECD11F4171A300E48294 /* JAL.png */; };
+		44C6ECD41F4171A300E48294 /* pilots.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C6ECD21F4171A300E48294 /* pilots.png */; };
+		44C6ECD71F4175EA00E48294 /* LogsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6ECD61F4175EA00E48294 /* LogsTableViewController.m */; };
+		44C6ECDB1F41828100E48294 /* qr.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C6ECDA1F41828100E48294 /* qr.png */; };
+		44C6ECDE1F428E8C00E48294 /* LogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6ECDD1F428E8C00E48294 /* LogTableViewController.m */; };
+		44C6ECE11F42923200E48294 /* LogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6ECE01F42923200E48294 /* LogTableViewCell.m */; };
+		44C6ECEA1F495EF000E48294 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C6ECE91F495EF000E48294 /* AVFoundation.framework */; };
+		44C6ECED1F49625000E48294 /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6ECEC1F49625000E48294 /* QRViewController.m */; };
+		44C6ECF01F4965DD00E48294 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C6ECEF1F4965DD00E48294 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44BBF4D11F4AF00E000315B1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		44BBF4D21F4AF00E000315B1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		44BBF4D51F4B09E6000315B1 /* crew1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crew1.jpg; path = img/crew1.jpg; sourceTree = SOURCE_ROOT; };
+		44BBF4D61F4B09E6000315B1 /* crew2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crew2.jpg; path = img/crew2.jpg; sourceTree = SOURCE_ROOT; };
+		44BBF4D71F4B09E6000315B1 /* crew3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crew3.jpg; path = img/crew3.jpg; sourceTree = SOURCE_ROOT; };
+		44BBF4DB1F4B13C1000315B1 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		44BBF4DC1F4B13C1000315B1 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		44BBF4E41F4B2344000315B1 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		44BBF4E51F4B2344000315B1 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 		44C6EC961F416A1800E48294 /* FLY TOGETHER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLY TOGETHER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C6EC9A1F416A1800E48294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44C6EC9C1F416A1800E48294 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +77,20 @@
 		44C6ECBD1F416A1900E48294 /* FLY TOGETHERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLY TOGETHERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C6ECC11F416A1900E48294 /* FLY_TOGETHERUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLY_TOGETHERUITests.m; sourceTree = "<group>"; };
 		44C6ECC31F416A1900E48294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C6ECD11F4171A300E48294 /* JAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JAL.png; path = img/JAL.png; sourceTree = SOURCE_ROOT; };
+		44C6ECD21F4171A300E48294 /* pilots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pilots.png; path = img/pilots.png; sourceTree = SOURCE_ROOT; };
+		44C6ECD51F4175EA00E48294 /* LogsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogsTableViewController.h; sourceTree = "<group>"; };
+		44C6ECD61F4175EA00E48294 /* LogsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogsTableViewController.m; sourceTree = "<group>"; };
+		44C6ECDA1F41828100E48294 /* qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qr.png; path = img/qr.png; sourceTree = SOURCE_ROOT; };
+		44C6ECDC1F428E8C00E48294 /* LogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogTableViewController.h; sourceTree = "<group>"; };
+		44C6ECDD1F428E8C00E48294 /* LogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogTableViewController.m; sourceTree = "<group>"; };
+		44C6ECDF1F42923200E48294 /* LogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogTableViewCell.h; sourceTree = "<group>"; };
+		44C6ECE01F42923200E48294 /* LogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogTableViewCell.m; sourceTree = "<group>"; };
+		44C6ECE91F495EF000E48294 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		44C6ECEB1F49625000E48294 /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		44C6ECEC1F49625000E48294 /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
+		44C6ECEE1F4965DD00E48294 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		44C6ECEF1F4965DD00E48294 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C6ECEA1F495EF000E48294 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +119,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44BBF4D01F4AEFCF000315B1 /* LogsView */ = {
+			isa = PBXGroup;
+			children = (
+				44C6ECD51F4175EA00E48294 /* LogsTableViewController.h */,
+				44C6ECD61F4175EA00E48294 /* LogsTableViewController.m */,
+				44C6ECDC1F428E8C00E48294 /* LogTableViewController.h */,
+				44C6ECDD1F428E8C00E48294 /* LogTableViewController.m */,
+				44C6ECDF1F42923200E48294 /* LogTableViewCell.h */,
+				44C6ECE01F42923200E48294 /* LogTableViewCell.m */,
+			);
+			name = LogsView;
+			sourceTree = "<group>";
+		};
+		44BBF4D41F4AF63A000315B1 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				44BBF4D11F4AF00E000315B1 /* MainViewController.h */,
+				44BBF4D21F4AF00E000315B1 /* MainViewController.m */,
+				44C6ECEE1F4965DD00E48294 /* MenuTableViewController.h */,
+				44C6ECEF1F4965DD00E48294 /* MenuTableViewController.m */,
+				44BBF4D01F4AEFCF000315B1 /* LogsView */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		44BBF4E71F4C0D83000315B1 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				44BBF4DB1F4B13C1000315B1 /* DownloadManager.h */,
+				44BBF4DC1F4B13C1000315B1 /* DownloadManager.m */,
+				44BBF4E41F4B2344000315B1 /* Downloader.h */,
+				44BBF4E51F4B2344000315B1 /* Downloader.m */,
+			);
+			name = Downloader;
+			sourceTree = "<group>";
+		};
 		44C6EC8D1F416A1800E48294 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +162,7 @@
 				44C6ECB51F416A1900E48294 /* FLY TOGETHERTests */,
 				44C6ECC01F416A1900E48294 /* FLY TOGETHERUITests */,
 				44C6EC971F416A1800E48294 /* Products */,
+				44C6ECE81F495EF000E48294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +183,10 @@
 				44C6EC9D1F416A1800E48294 /* AppDelegate.m */,
 				44C6EC9F1F416A1800E48294 /* ViewController.h */,
 				44C6ECA01F416A1800E48294 /* ViewController.m */,
+				44BBF4D41F4AF63A000315B1 /* MainView */,
+				44BBF4E71F4C0D83000315B1 /* Downloader */,
+				44C6ECEB1F49625000E48294 /* QRViewController.h */,
+				44C6ECEC1F49625000E48294 /* QRViewController.m */,
 				44C6ECA21F416A1800E48294 /* Main.storyboard */,
 				44C6ECA81F416A1800E48294 /* Assets.xcassets */,
 				44C6ECAA1F416A1800E48294 /* LaunchScreen.storyboard */,
@@ -120,6 +200,7 @@
 		44C6EC991F416A1800E48294 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44C6ECD01F41718B00E48294 /* img */,
 				44C6EC9A1F416A1800E48294 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +222,27 @@
 				44C6ECC31F416A1900E48294 /* Info.plist */,
 			);
 			path = "FLY TOGETHERUITests";
+			sourceTree = "<group>";
+		};
+		44C6ECD01F41718B00E48294 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				44BBF4D51F4B09E6000315B1 /* crew1.jpg */,
+				44BBF4D61F4B09E6000315B1 /* crew2.jpg */,
+				44BBF4D71F4B09E6000315B1 /* crew3.jpg */,
+				44C6ECDA1F41828100E48294 /* qr.png */,
+				44C6ECD11F4171A300E48294 /* JAL.png */,
+				44C6ECD21F4171A300E48294 /* pilots.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		44C6ECE81F495EF000E48294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44C6ECE91F495EF000E48294 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +354,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BBF4DA1F4B09E6000315B1 /* crew3.jpg in Resources */,
+				44C6ECDB1F41828100E48294 /* qr.png in Resources */,
 				44C6ECAC1F416A1800E48294 /* LaunchScreen.storyboard in Resources */,
+				44C6ECD31F4171A300E48294 /* JAL.png in Resources */,
+				44BBF4D91F4B09E6000315B1 /* crew2.jpg in Resources */,
 				44C6ECA91F416A1800E48294 /* Assets.xcassets in Resources */,
 				44C6ECA41F416A1800E48294 /* Main.storyboard in Resources */,
+				44BBF4D81F4B09E6000315B1 /* crew1.jpg in Resources */,
+				44C6ECD41F4171A300E48294 /* pilots.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +387,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C6ECE11F42923200E48294 /* LogTableViewCell.m in Sources */,
+				44C6ECD71F4175EA00E48294 /* LogsTableViewController.m in Sources */,
+				44BBF4E61F4B2344000315B1 /* Downloader.m in Sources */,
 				44C6ECA11F416A1800E48294 /* ViewController.m in Sources */,
+				44BBF4DD1F4B13C1000315B1 /* DownloadManager.m in Sources */,
+				44BBF4D31F4AF00E000315B1 /* MainViewController.m in Sources */,
+				44C6ECDE1F428E8C00E48294 /* LogTableViewController.m in Sources */,
 				44C6ECA71F416A1800E48294 /* FLY_TOGETHER.xcdatamodeld in Sources */,
 				44C6EC9E1F416A1800E48294 /* AppDelegate.m in Sources */,
 				44C6EC9B1F416A1800E48294 /* main.m in Sources */,
+				44C6ECF01F4965DD00E48294 /* MenuTableViewController.m in Sources */,
+				44C6ECED1F49625000E48294 /* QRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +636,7 @@
 				44C6ECC81F416A1900E48294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44C6ECC91F416A1900E48294 /* Build configuration list for PBXNativeTarget "FLY TOGETHERTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +645,7 @@
 				44C6ECCB1F416A1900E48294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44C6ECCC1F416A1900E48294 /* Build configuration list for PBXNativeTarget "FLY TOGETHERUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +654,7 @@
 				44C6ECCE1F416A1900E48294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
