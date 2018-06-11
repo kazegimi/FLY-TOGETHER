@@ -14,7 +14,7 @@
     UIView *rightView;
 }
 
-@synthesize imageView, nameLabel, paTextView;
+@synthesize imageView, titleLabel, nameLabel, mottoLabel, paTextView;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -36,11 +36,26 @@
     imageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     [leftView addSubview:imageView];
     
+    titleLabel = [[UILabel alloc] init];
+    titleLabel.frame = CGRectMake(imageView.frame.origin.x, imageView.frame.origin.y - 22, imageView.frame.size.width, 22);
+    titleLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
+    titleLabel.font = [UIFont systemFontOfSize:12.0f];
+    titleLabel.textAlignment = NSTextAlignmentCenter;
+    [leftView addSubview:titleLabel];
+    
     nameLabel = [[UILabel alloc] init];
     nameLabel.frame = CGRectMake(imageView.frame.origin.x, imageView.frame.origin.y + imageView.frame.size.height, imageView.frame.size.width, 22);
     nameLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     nameLabel.textAlignment = NSTextAlignmentCenter;
     [leftView addSubview:nameLabel];
+    
+    mottoLabel = [[UILabel alloc] init];
+    mottoLabel.frame = CGRectMake(nameLabel.frame.origin.x, nameLabel.frame.origin.y + nameLabel.frame.size.height, nameLabel.frame.size.width, 22);
+    mottoLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
+    mottoLabel.font = [UIFont systemFontOfSize:10.0f];
+    mottoLabel.numberOfLines = 2;
+    mottoLabel.textAlignment = NSTextAlignmentCenter;
+    [leftView addSubview:mottoLabel];
     
     rightView = [[UIView alloc] init];
     rightView.frame = CGRectMake(self.frame.size.width / 2.0f, padding, self.frame.size.width / 2.0f, self.frame.size.height - padding * 2);

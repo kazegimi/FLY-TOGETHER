@@ -20,8 +20,7 @@
     UIAlertController *alertController;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     
     self.title = @"QR";
@@ -34,11 +33,9 @@
     
     // Input
     AVCaptureDeviceInput *input = [AVCaptureDeviceInput deviceInputWithDevice:device error:nil];
-    if (input)
-    {
+    if (input) {
         [self.session addInput:input];
-    } else
-    {
+    } else {
         NSLog(@"error");
     }
     
@@ -54,17 +51,17 @@
     preview.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     [self.view.layer insertSublayer:preview atIndex:100];
     
-    // Start
-    [self.session startRunning];
-    
     downloadManager = [[DownloadManager alloc] init];
     downloadManager.delegate = self;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [self.session startRunning];
+}
+
 // QRコード認識時のDelegate
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects
-       fromConnection:(AVCaptureConnection *)connection
-{
+       fromConnection:(AVCaptureConnection *)connection {
     // 複数のmetadataが来るので順に調べる
     for (AVMetadataObject *data in metadataObjects)
     {
@@ -78,23 +75,21 @@
             [self.session stopRunning];
             [downloadManager downloadCrewWithEmployeeNumber:strValue];
             
-            alertController = [UIAlertController alertControllerWithTitle:@"通信中" message:@"乗員を探しています" preferredStyle:UIAlertControllerStyleAlert];
+            alertController = [UIAlertController alertControllerWithTitle:@"通信中" message:@"乗員を探しています..." preferredStyle:UIAlertControllerStyleAlert];
             
             [self presentViewController:alertController animated:YES completion:nil];
         }
     }
 }
 
-- (void)didFinishConnection
-{
+- (void)didFinishConnection {
     [self dismissViewControllerAnimated:YES completion:nil];
     
-    [preview removeFromSuperlayer];
+    //[preview removeFromSuperlayer];
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

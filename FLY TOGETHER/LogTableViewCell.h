@@ -11,7 +11,9 @@
 @interface LogTableViewCell : UITableViewCell
 
 @property (nonatomic) UIImageView *imageView;
+@property (nonatomic) UILabel *titleLabel;
 @property (nonatomic) UILabel *nameLabel;
+@property (nonatomic) UILabel *mottoLabel;
 @property (nonatomic) UITextView *paTextView;
 
 @end

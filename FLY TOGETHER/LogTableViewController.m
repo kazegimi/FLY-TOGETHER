@@ -59,11 +59,16 @@
     
     if (indexPath.row == 0)
     {
-        cell.textLabel.text = @"Flight Informations";
+        UIImageView *imageView = [[UIImageView alloc] init];
+        imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.tableView.rowHeight);
+        imageView.image = [UIImage imageNamed:@"flightinfo.PNG"];
+        [cell addSubview:imageView];
     } else
     {
+        cell.titleLabel.text = crewsArray[indexPath.row - 1][@"title"];
         cell.imageView.image = [self decodeBase64ToImage:crewsArray[indexPath.row - 1][@"image"]];
         cell.nameLabel.text = crewsArray[indexPath.row - 1][@"name"];
+        cell.mottoLabel.text = crewsArray[indexPath.row - 1][@"motto"];
         cell.paTextView.text = crewsArray[indexPath.row - 1][@"pa"];
     }
     

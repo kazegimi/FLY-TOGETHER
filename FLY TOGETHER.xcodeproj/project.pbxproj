@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44140D111FE87E0B00CB3EB5 /* flightinfo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 44140D101FE87E0B00CB3EB5 /* flightinfo.PNG */; };
 		44BBF4D31F4AF00E000315B1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBF4D21F4AF00E000315B1 /* MainViewController.m */; };
 		44BBF4D81F4B09E6000315B1 /* crew1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44BBF4D51F4B09E6000315B1 /* crew1.jpg */; };
 		44BBF4D91F4B09E6000315B1 /* crew2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44BBF4D61F4B09E6000315B1 /* crew2.jpg */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44140D101FE87E0B00CB3EB5 /* flightinfo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flightinfo.PNG; path = img/flightinfo.PNG; sourceTree = SOURCE_ROOT; };
 		44BBF4D11F4AF00E000315B1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		44BBF4D21F4AF00E000315B1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		44BBF4D51F4B09E6000315B1 /* crew1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crew1.jpg; path = img/crew1.jpg; sourceTree = SOURCE_ROOT; };
@@ -227,6 +229,7 @@
 		44C6ECD01F41718B00E48294 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				44140D101FE87E0B00CB3EB5 /* flightinfo.PNG */,
 				44BBF4D51F4B09E6000315B1 /* crew1.jpg */,
 				44BBF4D61F4B09E6000315B1 /* crew2.jpg */,
 				44BBF4D71F4B09E6000315B1 /* crew3.jpg */,
@@ -363,6 +366,7 @@
 				44C6ECA41F416A1800E48294 /* Main.storyboard in Resources */,
 				44BBF4D81F4B09E6000315B1 /* crew1.jpg in Resources */,
 				44C6ECD41F4171A300E48294 /* pilots.png in Resources */,
+				44140D111FE87E0B00CB3EB5 /* flightinfo.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "skyElements.FLY-TOGETHER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -564,6 +569,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "skyElements.FLY-TOGETHER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
